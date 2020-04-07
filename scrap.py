@@ -15,6 +15,8 @@ driver.find_element_by_xpath("//input[@type='email']").send_keys("xxxxxx@xxxxx.i
 driver.find_element_by_xpath("//input[@type='password']").send_keys("INSERT_PW")
 driver.find_element_by_xpath("//input[@value='Accedi']").click()
 
+time.sleep(5)
+
 driver.get('https://www.supermercato24.it/s#/locations/11243/stores/4494/checkout')
 
 while(ii==1):
