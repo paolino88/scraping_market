@@ -5,7 +5,7 @@ import json
 
 ii=1
 
-driver = webdriver.Chrome("/Users/Paolino/Downloads/chromedriver")
+driver = webdriver.Chrome("/PATH/chromedriver")
 
 driver.get("https://www.supermercato24.it/")
 driver.find_element_by_link_text("ACCETTO").click()
